@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  font-size: 18px;
+  color: #ff0505;
+}
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: #fbff03;
+  font-size: 30px;
+  font-weight: 700;
+}
+.description {
+  color: #fbff03;
+  text-align: center;
+}
+.phone a {
+  text-decoration: none;
+  color: #fbff03;
+}
+.phone a:hover {
+  color: #fbff03;
+  border-bottom: 1px solid #fbff03;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  width: 900px;
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fbff03;
+  display: flex;
+  flex-direction: column;
+}
+.menu li {
+  margin-top: 10px;
+}
+.menu a {
+  color: #fbff03;
+}
+.menu a:hover {
+  color: #fbff03;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
